@@ -1,6 +1,7 @@
 To run the application on Docker, run the following lines in your CLI:
 
 docker build -t bottomline/autocomplete:1.0-SNAPSHOT .
+
 docker run -d -p 9090:9090 bottomline/autocomplete:1.0-SNAPSHOT
 
 To receive a list of possible names given a name prefix, run the next line in the URL:
